@@ -1,4 +1,4 @@
-# HARDWARE MOD - REVAMPED
+# HARDWARE MOD - REVAMPED (FR)
 
 by NarodGaming
 
