@@ -1,10 +1,10 @@
 <SoftwareType>
   <Name>Système sur une puce ARM</Name>
   <Category>Système</Category>
-  <Description>Build Système-On-A-Chips for ARM based products!</Description>
+  <Description>Fabriquer un "système sur une puce" (SOC : System On a Chips) de type ARM !</Description>
   <Categories>
     <Category Name="Tablette">
-      <Description>Build an ARM SOC for a Tablette.</Description>
+      <Description>Fabriquer un SOC ARM pour tablette.</Description>
       <Unlock>2005</Unlock>
       <Popularity>0.8</Popularity>
       <TimeScale>1.3</TimeScale>
@@ -13,7 +13,7 @@
       <NameGenerator>names</NameGenerator>
      </Category>
      <Category Name="Téléphone portable">
-      <Description>Build an ARM SOC for a Téléphone portable.</Description>
+      <Description>Fabriquer un SOC ARM pour téléphone portable.</Description>
       <Unlock>2000</Unlock>
       <Popularity>1</Popularity>
       <TimeScale>1</TimeScale>
@@ -22,7 +22,7 @@
       <NameGenerator>names</NameGenerator>
      </Category>
      <Category Name="Ordinateur portable">
-      <Description>Build an ARM SOC for a Ordinateur portable.</Description>
+      <Description>Fabriquer un SOC ARM pour ordinateur portable.</Description>
       <Unlock>2010</Unlock>
       <Popularity>0.9</Popularity>
       <TimeScale>1.5</TimeScale>
@@ -40,7 +40,7 @@
       <Feature Forced="TRUE">
         <Name>Simple coeur</Name>
         <Category>Système</Category>
-        <Description>It gets one thing done at a time.</Description>
+        <Description>Une chose à la fois.</Description>
         <DevTime>4</DevTime>
         <Unlock>0</Unlock>
         <Innovation>3</Innovation>
@@ -54,7 +54,7 @@
        <Feature From="Simple coeur">
         <Name>Double coeur</Name>
         <Category>Système</Category>
-        <Description>Two things at a time!</Description>
+        <Description>Deux choses à la fois!</Description>
         <DevTime>5</DevTime>
         <Unlock>2002</Unlock>
         <Innovation>4</Innovation>
@@ -65,7 +65,7 @@
        <Feature From="Double coeur">
         <Name>Trois coeur</Name>
         <Category>Système</Category>
-        <Description>Three things at once!</Description>
+        <Description>Trois choses à la fois!</Description>
         <DevTime>5</DevTime>
         <Unlock>2004</Unlock>
         <Innovation>4</Innovation>
@@ -76,7 +76,7 @@
        <Feature From="Trois coeur">
         <Name>Quatre coeur</Name>
         <Category>Système</Category>
-        <Description>Four things at once?? Madness.</Description>
+        <Description>Quatre choses à la fois?? De la folie.</Description>
         <DevTime>5</DevTime>
         <Unlock>2007</Unlock>
         <Innovation>5</Innovation>
@@ -87,7 +87,7 @@
        <Feature From="Quatre coeur">
         <Name>Huit coeur</Name>
         <Category>Système</Category>
-        <Description>Eight things at once? Are you insane?</Description>
+        <Description>Huit à la fois?! Mais vous êtes fou?!</Description>
         <DevTime>6</DevTime>
         <Unlock>2010</Unlock>
         <Innovation>5</Innovation>
@@ -98,7 +98,7 @@
 	   <Feature Research="Huit coeur">
 		<Name>Architecture big.LITTLE</Name>
 		<Category>Système</Category>
-		<Description>Saving power whilst offering more peformance? Wow!</Description>
+		<Description>Economiser de l'énergie tout en offrant plus de performance? Wow!</Description>
 		<DevTime>4</DevTime>
 		<Unlock>2015</Unlock>
 		<Innovation>4</Innovation>
@@ -109,7 +109,7 @@
 	   <Feature Forced="TRUE">
 		<Name>Support de sortie vidéo basique</Name>
 		<Category>Système</Category>
-		<Description>Perfect for simple things, like... calculators</Description>
+		<Description>Parfait pour des choses simples, comme... les calculatrices.</Description>
 		<DevTime>3</DevTime>
 		<Unlock>0</Unlock>
 		<Innovation>1</Innovation>
@@ -123,7 +123,7 @@
 	   <Feature From="Support de sortie vidéo basique">
 		<Name>Support vidéo 240p</Name>
 		<Category>Système</Category>
-		<Description>Perfect for basic screens!</Description>
+		<Description>Parfait pour des écrans de base!</Description>
 		<DevTime>4</DevTime>
 		<Unlock>2003</Unlock>
 		<Innovation>2</Innovation>
@@ -134,7 +134,7 @@
 	   <Feature From="Support vidéo 240p">
 		<Name>Support vidéo VGA</Name>
 		<Category>Système</Category>
-		<Description>A perfect standard!</Description>
+		<Description>Un parfait standard!</Description>
 		<DevTime>5</DevTime>
 		<Unlock>2005</Unlock>
 		<Innovation>2</Innovation>
@@ -145,7 +145,7 @@
 	   <Feature From="Support vidéo VGA">
 		<Name>Support vidéo HD</Name>
 		<Category>Système</Category>
-		<Description>A retina standard.</Description>
+		<Description>Un standard pour la rétine.</Description>
 		<DevTime>6</DevTime>
 		<Unlock>2007</Unlock>
 		<Innovation>3</Innovation>
@@ -156,7 +156,7 @@
 	   <Feature From="Support vidéo HD">
 	    <Name>Support vidéo FHD</Name>
 		<Category>Système</Category>
-		<Description>True retina.</Description>
+		<Description>Vrai rétine.</Description>
 		<DevTime>7</DevTime>
 		<Unlock>2010</Unlock>
 		<Innovation>4</Innovation>
@@ -167,7 +167,7 @@
 	   <Feature From="Support vidéo FHD">
 		<Name>Support vidéo QHD</Name>
 		<Category>Système</Category>
-		<Description>Best (VR) Quality</Description>
+		<Description>Meilleure qualité (VR)</Description>
 		<DevTime>8</DevTime>
 		<Unlock>2015</Unlock>
 		<Innovation>5</Innovation>
@@ -178,7 +178,7 @@
 	   <Feature Research="Support vidéo QHD">
 		<Name>Peformance</Name>
 		<Category>Système</Category>
-		<Description>Performance update for your tech!</Description>
+		<Description>Mise à jour performance de votre technologie!</Description>
 		<DevTime>4</DevTime>
 		<Unlock>2016</Unlock>
 		<Innovation>2</Innovation>
@@ -192,7 +192,7 @@
        <Feature Forced="TRUE">
         <Name>Support LPDDR</Name>
         <Category>Système</Category>
-        <Description>Low powered DDR! It's a start atleast...</Description>
+        <Description>DDR Faible conso ! C'est un début au moins...</Description>
         <DevTime>2</DevTime>
         <Unlock>0</Unlock>
         <Innovation>1</Innovation>
@@ -207,7 +207,7 @@
        <Feature From="Support LPDDR">
         <Name>Support LPDDR 2</Name>
         <Category>Système</Category>
-        <Description>Low powered DDR2! Alright I guess...</Description>
+        <Description>DDR2 Faible conso ! Pas mal je suppose...</Description>
         <DevTime>2</DevTime>
         <Unlock>2005</Unlock>
         <Innovation>2</Innovation>
@@ -219,7 +219,7 @@
        <Feature From="Support LPDDR 2">
         <Name>Support LPDDR 3</Name>
         <Category>Système</Category>
-        <Description>Low powered DDR3! Damn standards...</Description>
+        <Description>DDR3 Faible conso ! Très bon standard...</Description>
         <DevTime>3</DevTime>
         <Unlock>2010</Unlock>
         <Innovation>3</Innovation>
@@ -231,7 +231,7 @@
        <Feature From="Support LPDDR 3">
         <Name>Support LPDDR4</Name>
         <Category>Système</Category>
-        <Description>Low powered DDR4! Wow that speed...</Description>
+        <Description>DDR4 Faible conso! Wow, c'est rapide...</Description>
         <DevTime>4</DevTime>
         <Unlock>2014</Unlock>
         <Innovation>4</Innovation>
@@ -243,7 +243,7 @@
        <Feature Vital="TRUE">
         <Name>Technologie QuickCharge</Name>
         <Category>Système</Category>
-        <Description>Charge your Téléphone portable x% in x minutes!</Description>
+        <Description>Charge votre téléphone portable en x% en x minutes!</Description>
         <Unlock>2007</Unlock>
         <DevTime>2</DevTime>
         <Innovation>1</Innovation>
@@ -256,7 +256,7 @@
        <Feature Research="Technologie QuickCharge">
         <Name>Technologie SnapCharge</Name>
         <Category>Système</Category>
-        <Description>Even faster than ever before!</Description>
+        <Description>Plus rapide que jamais!</Description>
         <Unlock>2009</Unlock>
         <DevTime>3</DevTime>
         <Innovation>2</Innovation>
@@ -269,7 +269,7 @@
 	   <Feature From="Technologie QuickCharge">
 		<Name>Technologie DashCharge</Name>
 		<Category>Système</Category>
-		<Description>Charge your Téléphone portable up to 40% in 15 minutes!</Description>
+		<Description>Charge votre téléphone portable à 40% en 15 minutes!</Description>
 		<Unlock>2013</Unlock>
 		<DevTime>5</DevTime>
 		<Innovation>2</Innovation>
@@ -282,7 +282,7 @@
 	   <Feature Research="Technologie DashCharge">
 		<Name>Technologie DashCharge Extreme</Name>
 		<Category>Système</Category>
-		<Description>Charge your Téléphone portable up to 60% in 15 minutes!</Description>
+		<Description>Charge votre téléphone portable à 60% en 15 minutes!</Description>
 		<Unlock>2016</Unlock>
 		<DevTime>6</DevTime>
 		<Innovation>3</Innovation>
@@ -295,7 +295,7 @@
        <Feature>
         <Name>Efficacité énergétique</Name>
         <Category>Système</Category>
-        <Description>It's not very mobile if the battery dries up instantly...</Description>
+        <Description>Ce n'est pas très mobile si la batterie tombe instantanément à plat...</Description>
         <Unlock>2005</Unlock>
         <DevTime>2</DevTime>
         <Innovation>1</Innovation>
@@ -309,7 +309,7 @@
        <Feature Research="Efficacité énergétique">
         <Name>Meilleure efficacité énergétique</Name>
         <Category>Système</Category>
-        <Description>Have even more battery left at the end of the day!</Description>
+        <Description>Encore plus de batterie restant à la fin de la journée!</Description>
         <Unlock>2009</Unlock>
         <DevTime>3</DevTime>
         <Innovation>2</Innovation>
