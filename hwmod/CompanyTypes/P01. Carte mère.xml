@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Carte mère</Specialization>
+	<Force>Carte mère,Consommateur</Force>
+	<PerYear>0.1</PerYear>
+	<Min>1</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Carte mère">0.1</Type>
+	</Types>
+</CompanyType>

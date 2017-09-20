@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Ordinateurs</Specialization>
+    <Force>Ordinateur,Consommateur</Force>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Ordinateur">1</Type>
+	</Types>
+</CompanyType>

@@ -1,9 +1,9 @@
 <CompanyType>
-	<Specialization>ARM Technologies</Specialization>
+	<Specialization>Technologies ARM</Specialization>
 	<PerYear>0.2</PerYear>
 	<Min>1</Min>
 	<Max>2</Max>
 	<Types>
-		<Type Software="Low-Powered Memory">0.6</Type>
+		<Type Software="Mémoire faible consommation">0.6</Type>
 	</Types>
 </CompanyType>

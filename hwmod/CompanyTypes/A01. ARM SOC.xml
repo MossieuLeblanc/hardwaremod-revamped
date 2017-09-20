@@ -4,6 +4,6 @@
 	<Min>1</Min>
 	<Max>1</Max>
 	<Types>
-		<Type Software="ARM System-On-A-Chip">0.3</Type>
+		<Type Software="Système sur une puce ARM">0.3</Type>
 	</Types>
 </CompanyType>

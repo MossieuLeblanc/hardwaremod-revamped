@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Stockages</Specialization>
+	<Force>Stockage,Disque dur</Force>
+	<PerYear>0.1</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Stockage">1</Type>
+	</Types>
+</CompanyType>

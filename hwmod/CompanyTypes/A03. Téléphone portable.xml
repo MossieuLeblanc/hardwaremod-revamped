@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Téléphones portable</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>2</Max>
+	<Types>
+		<Type Software="Téléphone portable">0.4</Type>
+	</Types>
+</CompanyType>

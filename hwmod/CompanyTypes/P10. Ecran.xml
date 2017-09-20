@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Ecrans</Specialization>
+	<Force>Ecran,Défaut</Force>
+	<PerYear>0.25</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="Ecran">1</Type>
+	</Types>
+</CompanyType>

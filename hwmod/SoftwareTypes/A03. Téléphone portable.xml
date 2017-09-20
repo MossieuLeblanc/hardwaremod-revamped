@@ -1,10 +1,10 @@
 <SoftwareType>
-	<Name>Mobile Phone</Name>
+	<Name>Téléphone portable</Name>
 	<Category>Hardware</Category>
-	<Description>Make a mobile phone to sell to the masses!</Description>
+	<Description>Make a Téléphone portable to sell to the masses!</Description>
 	<Categories>
-		<Category Name="Default">
-			<Description>A phone. What more could you want.</Description>
+		<Category Name="Défaut">
+			<Description>A Téléphone portable. What more could you want.</Description>
 			<Unlock>2000</Unlock>
 			<Popularity>0.9</Popularity>
 			<TimeScale>1</TimeScale>
@@ -20,8 +20,8 @@
 	<NameGenerator>consumernames</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>Phone Casing</Name>
-			<Category>Physical</Category>
+			<Name>Boîtier de téléphone portable</Name>
+			<Category>Physique</Category>
 			<Description>Well, what else are you going to put the parts in?!</Description>
 			<DevTime>3</DevTime>
 			<Unlock>0</Unlock>
@@ -30,9 +30,9 @@
 			<Stability>2</Stability>
 			<CodeArt>0</CodeArt>
 		</Feature>
-		<Feature From="Phone Casing">
-			<Name>Phone Casing with Camera Cut-Out</Name>
-			<Category>Physical</Category>
+		<Feature From="Boîtier de téléphone portable">
+			<Name>Boîtier de téléphone portable avec appareil photo</Name>
+			<Category>Physique</Category>
 			<Description>Allows you to add in a camera.</Description>
 			<DevTime>4</DevTime>
 			<Unlock>2005</Unlock>
@@ -42,7 +42,7 @@
 			<CodeArt>0</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>Speaker Amplifier</Name>
+			<Name>Amplificateur d'enceinte</Name>
 			<Category>Audio</Category>
 			<Description>You'll need these for sound. Isn't it obvious? No? Ok.</Description>
 			<DevTime>2</DevTime>
@@ -53,21 +53,21 @@
 			<CodeArt>0.7</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>Speaker</Name>
+			<Name>Enceinte</Name>
 			<Category>Audio</Category>
-			<Description>Would make sense to have these with the amp? No? It's your phone not mine...</Description>
+			<Description>Would make sense to have these with the amp? No? It's your Téléphone portable not mine...</Description>
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
-			<Dependency Software="Mobile Phone">Speaker Amplifier</Dependency>
+			<Dependency Software="Téléphone portable">Amplificateur d'enceinte</Dependency>
 		</Feature>
-		<Feature From="Speaker">
-			<Name>Stereo Speakers</Name>
+		<Feature From="Enceinte">
+			<Name>Enceintes stéréo</Name>
 			<Category>Audio</Category>
-			<Description>Two speakers are better than one. (in theory)</Description>
+			<Description>Two Enceintes are better than one. (in theory)</Description>
 			<DevTime>4</DevTime>
 			<Unlock>2014</Unlock>
 			<Innovation>3</Innovation>
@@ -76,21 +76,21 @@
 			<CodeArt>0.7</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>3.5mm Jack</Name>
+			<Name>Jack 3.5mm</Name>
 			<Category>Audio</Category>
-			<Description>For listening to music through headphones (not included)</Description>
+			<Description>For listening to music through headTéléphone portables (not included)</Description>
 			<DevTime>1</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.2</CodeArt>
-			<Dependency Software="Mobile Phone">Speaker Amplifier</Dependency>
+			<Dependency Software="Téléphone portable">Amplificateur d'enceinte</Dependency>
 		</Feature>
-		<Feature From="3.5mm Jack">
+		<Feature From="Jack 3.5mm">
 			<Name>3.5mm Combi-Jack</Name>
 			<Category>Audio</Category>
-			<Description>Plug headphones and a microphone into the same port, at the same time!</Description>
+			<Description>Plug headTéléphone portables and a microTéléphone portable into the same port, at the same time!</Description>
 			<DevTime>2</DevTime>
 			<Unlock>2004</Unlock>
 			<Innovation>2</Innovation>
@@ -99,9 +99,9 @@
 			<CodeArt>0.4</CodeArt>
 		</Feature>
 		<Feature Forced="TRUE">
-			<Name>Microphone</Name>
+			<Name>MicroTéléphone portable</Name>
 			<Category>Audio</Category>
-			<Description>For making calls, you know, the point of a phone? Oh forget it.</Description>
+			<Description>For making calls, you know, the point of a Téléphone portable? Oh forget it.</Description>
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
@@ -110,8 +110,8 @@
 			<CodeArt>0.4</CodeArt>
 		</Feature>
 		<Feature Forced="TRUE">
-			<Name>Monochrome Display</Name>
-			<Category>Physical</Category>
+			<Name>Affichage monochrome</Name>
+			<Category>Physique</Category>
 			<Description>A basic monochrome screen, two colours, low resolution.</Description>
 			<Unlock>0</Unlock>
 			<DevTime>4</DevTime>
@@ -120,9 +120,9 @@
 			<Stability>1</Stability>
 			<CodeArt>0.4</CodeArt>
 		</Feature>
-		<Feature From="Monochrome Display">
-			<Name>LCD TFT Display</Name>
-			<Category>Physical</Category>
+		<Feature From="Affichage monochrome">
+			<Name>Affichage LCD TFT</Name>
+			<Category>Physique</Category>
 			<Description>Yay for colours, its a shame theres about 2 degrees of viewing angles!</Description>
 			<Unlock>2003</Unlock>
 			<DevTime>4</DevTime>
@@ -131,9 +131,9 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 		</Feature>
-		<Feature From="LCD TFT Display">
-			<Name>LCD TFT TouchDisplay</Name>
-			<Category>Physical</Category>
+		<Feature From="Affichage LCD TFT">
+			<Name>Affichage tactile LCD TFT</Name>
+			<Category>Physique</Category>
 			<Description>No advancement in the same awful display, but you can poke it now!</Description>
 			<Unlock>2006</Unlock>
 			<DevTime>6</DevTime>
@@ -142,9 +142,9 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 		</Feature>
-		<Feature From="LCD TFT TouchDisplay">
-			<Name>IPS TouchDisplay</Name>
-			<Category>Physical</Category>
+		<Feature From="Affichage tactile LCD TFT">
+			<Name>Affichage tactile IPS</Name>
+			<Category>Physique</Category>
 			<Description>Touchscreen and a display that isn't absoultely dreadful. Madness.</Description>
 			<Unlock>2008</Unlock>
 			<DevTime>7</DevTime>
@@ -155,13 +155,13 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>ARM SOC</Name>
-			<Category>Physical</Category>
-			<Description>The brains of the phone. The thing that does it all. 42.</Description>
+			<Category>Physique</Category>
+			<Description>The brains of the Téléphone portable. The thing that does it all. 42.</Description>
 			<Unlock>0</Unlock>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
-			<Dependency Software="ARM System-On-A-Chip">Single Core</Dependency>
+			<Dependency Software="Système sur une puce ARM">Simple coeur</Dependency>
 		</Feature>

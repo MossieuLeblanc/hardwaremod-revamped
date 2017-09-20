@@ -1,9 +1,9 @@
 <SoftwareType>
-	<Name>Low-Powered Memory</Name>
-	<Category>System</Category>
+	<Name>Mémoire faible consommation</Name>
+	<Category>Système</Category>
 	<Description>Create RAM for ARM based products!</Description>
 	<Categories>
-		<Category Name="Default">
+		<Category Name="Défaut">
 			<Description>Make RAM for ARM based products!</Description>
 			<Unlock>2000</Unlock>
 			<Popularity>0.1</Popularity>
@@ -20,8 +20,8 @@
 	<NameGenerator>names</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>Memory Interface</Name>
-			<Category>System</Category>
+			<Name>Interface mémoire</Name>
+			<Category>Système</Category>
 			<Description>Allows the RAM to interface with the motherboard</Description>
 			<DevTime>3</DevTime>
 			<Unlock>0</Unlock>
@@ -29,11 +29,11 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.6</CodeArt>
-			<SoftwareCategory Category="Default">0</SoftwareCategory>
+			<SoftwareCategory Category="Défaut">0</SoftwareCategory>
 		</Feature>
-		<Feature From="Memory Interface">
-			<Name>DIMM Interfacing</Name>
-			<Category>System</Category>
+		<Feature From="Interface mémoire">
+			<Name>Interface DIMM</Name>
+			<Category>Système</Category>
 			<Description>A easy standard, reduces time needed.</Description>
 			<DevTime>2</DevTime>
 			<Unlock>2008</Unlock>
@@ -42,9 +42,9 @@
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
 		</Feature>
-		<Feature From="DIMM Interfacing">
-			<Name>Soldered on RAM</Name>
-			<Category>System</Category>
+		<Feature From="Interface DIMM">
+			<Name>Souder sur RAM</Name>
+			<Category>Système</Category>
 			<Description>Even easier! Solder it to the motherboard!</Description>
 			<DevTime>2</DevTime>
 			<Unlock>2012</Unlock>
@@ -55,7 +55,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>LPDDR</Name>
-			<Category>System</Category>
+			<Category>Système</Category>
 			<Description>It supports LPDDR1 motherboards. Nothing special really.</Description>
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
@@ -63,11 +63,11 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Default">0</SoftwareCategory>
+			<SoftwareCategory Category="Défaut">0</SoftwareCategory>
 		</Feature>
 		<Feature From="LPDDR">
 			<Name>LPDDR2</Name>
-			<Category>System</Category>
+			<Category>Système</Category>
 			<Description>LPDDR2! Improving speed, power and size!</Description>
 			<DevTime>3</DevTime>
 			<Unlock>2006</Unlock>
@@ -78,7 +78,7 @@
 		</Feature>
 		<Feature From="LPDDR2">
 			<Name>LPDDR3</Name>
-			<Category>System</Category>
+			<Category>Système</Category>
 			<Description>LPDDR3! To the mainstream...</Description>
 			<DevTime>3</DevTime>
 			<Unlock>2011</Unlock>
@@ -89,7 +89,7 @@
 		</Feature>
 		<Feature From="LPDDR3">
 			<Name>LPDDR4</Name>
-			<Category>System</Category>
+			<Category>Système</Category>
 			<Description>LPDDR4! Speed, effciency, size, all in one.</Description>
 			<DevTime>4</DevTime>
 			<Unlock>2015</Unlock>
@@ -99,8 +99,8 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Forced="TRUE">
-			<Name>Battery Mode</Name>
-			<Category>System</Category>
+			<Name>Mode batterie</Name>
+			<Category>Système</Category>
 			<Description>A Standard mode, underclock the RAM to save battery!</Description>
 			<DevTime>1</DevTime>
 			<Unlock>0</Unlock>
@@ -108,11 +108,11 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
-			<SoftwareCategory Category="Default">0</SoftwareCategory>
+			<SoftwareCategory Category="Défaut">0</SoftwareCategory>
 		</Feature>
-		<Feature From="Battery Mode">
-			<Name>Standard Speed</Name>
-			<Category>System</Category>
+		<Feature From="Mode batterie">
+			<Name>Vitesse standart</Name>
+			<Category>Système</Category>
 			<Description>A entry mode, standard ram speed for improved peformance.</Description>
 			<DevTime>2</DevTime>
 			<Unlock>2006</Unlock>
@@ -121,9 +121,9 @@
 			<Stability>2</Stability>
 			<CodeArt>0.9</CodeArt>
 		</Feature>
-		<Feature From="Standard Speed">
-			<Name>Regular Peformance</Name>
-			<Category>System</Category>
+		<Feature From="Vitesse standart">
+			<Name>Performance régulière</Name>
+			<Category>Système</Category>
 			<Description>Push the RAM slightly further, get extra performance for games.</Description>
 			<DevTime>3</DevTime>
 			<Unlock>2010</Unlock>
@@ -132,9 +132,9 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="Regular Peformance">
-			<Name>Race Peformance</Name>
-			<Category>System</Category>
+		<Feature From="Performance régulière">
+			<Name>Performance rapide</Name>
+			<Category>Système</Category>
 			<Description>Draw extra voltage for safe overclocking.</Description>
 			<DevTime>4</DevTime>
 			<Unlock>2014</Unlock>
@@ -143,9 +143,9 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="Race Peformance">
-			<Name>XMP Profiling</Name>
-			<Category>System</Category>
+		<Feature From="Performance rapide">
+			<Name>Profil XMP</Name>
+			<Category>Système</Category>
 			<Description>Safely push alot more Mhz with no extra voltage!</Description>
 			<DevTime>6</DevTime>
 			<Unlock>2016</Unlock>
@@ -154,9 +154,9 @@
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature Research="XMP Profiling">
+		<Feature Research="Profil XMP">
 			<Name>XMP 2.0</Name>
-			<Category>System</Category>
+			<Category>Système</Category>
 			<Description>Maximum peformance!</Description>
 			<DevTime>3</DevTime>
 			<Unlock>2018</Unlock>
@@ -164,7 +164,7 @@
 			<Usability>3</Usability>
 			<Stability>3</Stability>
 			<CodeArt>0.9</CodeArt>
-			<SoftwareCategory Category="Default">2018</SoftwareCategory>
+			<SoftwareCategory Category="Défaut">2018</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>
