@@ -31,7 +31,7 @@
       <Usability>10</Usability>
       <Stability>5</Stability>
       <CodeArt>1</CodeArt>
-      <Dependency Software="Carte mère">Emplacements PCI</Dependency>
+      <Dependency Software="Carte mère">Bus PCI</Dependency>
     </Feature>
     <Feature From="Interface PCI" Vital="TRUE">
       <Name>PCI Express</Name>

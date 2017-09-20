@@ -197,10 +197,10 @@
       <Usability>10</Usability>
       <Stability>5</Stability>
       <CodeArt>1</CodeArt>
-      <Dependency Software="Carte mère">Emplacements PCI</Dependency>
+      <Dependency Software="Carte mère">Bus PCI</Dependency>
     </Feature>
     <Feature From="Interface PCI" Forced="FALSE" Vital="TRUE">
-      <Name>AGP</Name>
+      <Name>Port AGP</Name>
       <Category>Physique</Category>
       <Description>A bus dedicated to graphics adapters.</Description>
       <Unlock>1997</Unlock>
@@ -209,10 +209,10 @@
       <Usability>10</Usability>
       <Stability>5</Stability>
       <CodeArt>1</CodeArt>
-      <Dependency Software="Carte mère">AGP</Dependency>
+      <Dependency Software="Carte mère">Port AGP</Dependency>
     </Feature>
-    <Feature From="AGP" Forced="FALSE" Vital="TRUE">
-      <Name>AGP x8</Name>
+    <Feature From="Port AGP" Forced="FALSE" Vital="TRUE">
+      <Name>Port AGP x8</Name>
       <Category>Physique</Category>
       <Description>A bus dedicated to graphics adapters.</Description>
       <Unlock>1997</Unlock>
@@ -221,10 +221,10 @@
       <Usability>10</Usability>
       <Stability>5</Stability>
       <CodeArt>1</CodeArt>
-      <Dependency Software="Carte mère">AGP x8</Dependency>
-	  <Dependency Software="Cartes graphique">AGP</Dependency>
+      <Dependency Software="Carte mère">Port AGP x8</Dependency>
+	  <Dependency Software="Cartes graphique">Port AGP</Dependency>
     </Feature>
-    <Feature From="AGP x8" Forced="FALSE" Vital="TRUE">
+    <Feature From="Port AGP x8" Forced="FALSE" Vital="TRUE">
       <Name>PCI Express x16</Name>
       <Category>Physique</Category>
       <Description>PCI Express is much faster! (40 Gbit/s)</Description>
