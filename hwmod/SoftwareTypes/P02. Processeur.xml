@@ -1,10 +1,10 @@
 <SoftwareType>
   <Name>Processeur</Name>
   <Category>Hardware</Category>
-  <Description>The brain of every Ordinateur.</Description>
+  <Description>Le cerveau des ordinateurs.</Description>
   <Categories>
     <Category Name="Défaut">
-      <Description>Create a central processing unit!</Description>
+      <Description>Concevoir une unité centrale de traitement (UCT).</Description>
       <Unlock>0</Unlock>
       <Popularity>1</Popularity>
       <TimeScale>1.15</TimeScale>
@@ -24,7 +24,7 @@
     <Feature Forced="TRUE">
       <Name>Unité mathématique</Name>
       <Category>Physique</Category>
-      <Description>The Main Brain. Does things like finding "X" from "X=42^(1-4+9)</Description>
+      <Description>Le cerveau principal. Peux accomplir des choses comme de trouver la valeur de "X" si "X=42^(1-4+9)</Description>
       <Unlock>0</Unlock>
       <DevTime>6</DevTime>
       <Innovation>1</Innovation>
@@ -35,7 +35,7 @@
     <Feature Research="Unité mathématique">
       <Name>Diviseur</Name>
       <Category>Système</Category>
-      <Description>Division without the thinking</Description>
+      <Description>Des divisions sans même réfléchir.</Description>
       <Unlock>1980</Unlock>
       <DevTime>12</DevTime>
       <Innovation>4</Innovation>
@@ -46,7 +46,7 @@
     <Feature Research="Unité mathématique" Vital="TRUE">
       <Name>APU</Name>
       <Category>Système</Category>
-      <Description>An accelerrated processing unit, glueing the graphics chip onto the cpu.</Description>
+      <Description>Une unité de traitement accélérée, intégrant la puce graphique sur le processeur.</Description>
       <Unlock>1990</Unlock>
       <DevTime>24</DevTime>
       <Innovation>8</Innovation>
@@ -57,7 +57,7 @@
     <Feature Vital="TRUE">
       <Name>Mathématique parallèle</Name>
       <Category>Système</Category>
-      <Description>What if you could do two things at once, on one core?</Description>
+      <Description>Et qu'est-ce qui se passerait si vous pouviez faire deux choses à la fois, avec un seul coeur?</Description>
       <Unlock>1990</Unlock>
       <DevTime>9</DevTime>
       <Innovation>6</Innovation>
@@ -69,7 +69,7 @@
     <Feature Forced="TRUE">
       <Name>Unité de contrôle</Name>
       <Category>Physique</Category>
-      <Description>The main controlling unit of the CPU.</Description>
+      <Description>L'unité de contrôle principale du processeur.</Description>
       <Unlock>0</Unlock>
       <DevTime>3</DevTime>
       <Innovation>1</Innovation>
@@ -80,7 +80,7 @@
 	<Feature Research="Unité de contrôle">
 	  <Name>Hyper-threading</Name>
 	  <Category>Système</Category>
-	  <Description>Cheat out consumers by faking them cores. Wooo!</Description>
+	  <Description>Tromper le consommateur en truquant les coeurs. Wooo!</Description>
 	  <Unlock>2010</Unlock>
 	  <DevTime>6</DevTime>
 	  <Innovation>9</Innovation>
@@ -91,7 +91,7 @@
     <Feature From="Unité de contrôle" Vital="TRUE">
       <Name>Double coeur</Name>
       <Category>Système</Category>
-      <Description>Double those cores.</Description>
+      <Description>Double les coeurs.</Description>
       <Unlock>2006</Unlock>
       <DevTime>6</DevTime>
       <Innovation>6</Innovation>
@@ -102,7 +102,7 @@
     <Feature From="Double coeur" Vital="TRUE">
       <Name>Quatre coeur</Name>
       <Category>Système</Category>
-      <Description>... and again?</Description>
+      <Description>... et encore?</Description>
       <Unlock>2007</Unlock>
       <DevTime>9</DevTime>
       <Innovation>10</Innovation>
@@ -113,7 +113,7 @@
     <Feature From="Quatre coeur" Vital="TRUE">
       <Name>Huit coeur</Name>
       <Category>Système</Category>
-      <Description>...... again?!</Description>
+      <Description>...... encore?!</Description>
       <Unlock>2011</Unlock>
       <DevTime>15</DevTime>
       <Innovation>12</Innovation>
@@ -124,7 +124,7 @@
     <Feature Vital="TRUE">
       <Name>Dissipateur de chaleur</Name>
       <Category>Physique</Category>
-      <Description>To prevent your CPU from replacing your grill</Description>
+      <Description>Pour éviter à votre processeur de devenir un grill.</Description>
       <Unlock>1980</Unlock>
       <DevTime>3</DevTime>
       <Innovation>1</Innovation>
@@ -135,7 +135,7 @@
     <Feature From="Dissipateur de chaleur" Vital="TRUE">
       <Name>Tuyau à chaleur</Name>
       <Category>Physique</Category>
-      <Description>Probably gives the most heat dissapation</Description>
+      <Description>Probablement ce qui dissipe le mieux la chaleur.</Description>
       <Unlock>1985</Unlock>
       <DevTime>6</DevTime>
       <Innovation>3</Innovation>
@@ -146,7 +146,7 @@
     <Feature From="Tuyau à chaleur" Forced="FALSE">
       <Name>Ailette à chaleur</Name>
       <Category>Physique</Category>
-      <Description>Most definitely gives the most heat dissapation.</Description>
+      <Description>Définitivement ce qui dissipe le mieux la chaleur.</Description>
       <Unlock>1995</Unlock>
       <DevTime>9</DevTime>
       <Innovation>6</Innovation>
@@ -157,7 +157,7 @@
     <Feature Forced="FALSE" Vital="TRUE">
       <Name>Pâte thermique</Name>
       <Category>Physique</Category>
-      <Description>Help to transfer heat from CPU to the cooler</Description>
+      <Description>Aide au transfert de la chaleur entre le processeur et le dissipateur.</Description>
       <Unlock>1970</Unlock>
       <DevTime>2</DevTime>
       <Innovation>1</Innovation>
@@ -168,7 +168,7 @@
     <Feature From="Pâte thermique" Vital="TRUE">
       <Name>Substrat</Name>
       <Category>Physique</Category>
-      <Description>Move the heat on. Faster.</Description>
+      <Description>Déplace la chaleur. Plus vite.</Description>
       <Unlock>1980</Unlock>
       <DevTime>6</DevTime>
       <Innovation>4</Innovation>
@@ -179,7 +179,7 @@
     <Feature From="Substrat" Vital="TRUE">
       <Name>Pâte Arctique</Name>
       <Category>Physique</Category>
-      <Description>Move the heat on. Fastest.</Description>
+      <Description>Déplace la chaleur. Le plus rapide.</Description>
       <Unlock>1990</Unlock>
       <DevTime>9</DevTime>
       <Innovation>8</Innovation>
@@ -190,7 +190,7 @@
     <Feature Forced="TRUE">
       <Name>Unité logique</Name>
       <Category>Système</Category>
-      <Description>The Other Main Brain. Does things like comparing two numbers</Description>
+      <Description>L'autre cerveau principal. Fais des choses comme comparer deux chiffres.</Description>
       <Unlock>0</Unlock>
       <DevTime>6</DevTime>
       <Innovation>1</Innovation>
@@ -201,7 +201,7 @@
     <Feature>
       <Name>Predicteur</Name>
       <Category>Système</Category>
-      <Description>Can be used to improve logic</Description>
+      <Description>Peut être utiliser pour améliorer la logique.</Description>
       <Unlock>1983</Unlock>
       <DevTime>6</DevTime>
       <Innovation>2</Innovation>
@@ -213,7 +213,7 @@
     <Feature>
       <Name>Fetcher</Name>
       <Category>Système</Category>
-      <Description>Hugely speeds up the fetching time from Registres.</Description>
+      <Description>Augmente grandement la vitesse de recherche depuis les registres.</Description>
       <Unlock>1985</Unlock>
       <DevTime>6</DevTime>
       <Innovation>4</Innovation>
@@ -225,7 +225,7 @@
     <Feature Forced="TRUE">
       <Name>Registres</Name>
       <Category>Physique</Category>
-      <Description>Store numbers quickly.</Description>
+      <Description>Empile les chiffres rapidement.</Description>
       <Unlock>0</Unlock>
       <DevTime>6</DevTime>
       <Innovation>1</Innovation>
@@ -236,7 +236,7 @@
     <Feature Vital="TRUE">
       <Name>Cache</Name>
       <Category>Physique</Category>
-      <Description>Caches hugely reduce the time needed to access memory.</Description>
+      <Description>Le cache réduit grandement le temps d'accès à la mémoire.</Description>
       <Unlock>1985</Unlock>
       <DevTime>9</DevTime>
       <Innovation>4</Innovation>
@@ -248,7 +248,7 @@
     <Feature Vital="TRUE">
       <Name>2nd niveau</Name>
       <Category>Physique</Category>
-      <Description>Even faster than 1st Level cache, but laggier.</Description>
+      <Description>Encore plus rapide que le premier niveau de cache, mais plus lent.</Description>
       <Unlock>1990</Unlock>
       <DevTime>15</DevTime>
       <Innovation>10</Innovation>
@@ -260,7 +260,7 @@
     <Feature Vital="TRUE">
       <Name>3eme niveau</Name>
       <Category>Physique</Category>
-      <Description>Increasing speeds once again.</Description>
+      <Description>Augmentation de la vitesse une nouvelle fois.</Description>
       <Unlock>1995</Unlock>
       <DevTime>15</DevTime>
       <Innovation>10</Innovation>
@@ -272,7 +272,7 @@
     <Feature Research="3eme niveau" Vital="TRUE">
       <Name>Mémoire sur puce</Name>
       <Category>Physique</Category>
-      <Description>Integrates the 3eme niveau cache directly onto the chip, reducing the access time dramatically,</Description>
+      <Description>Intègre le troisième niveau du cache directement sur la puce, réduisant drastiquement le temps d'accès.</Description>
       <Unlock>2000</Unlock>
       <DevTime>24</DevTime>
       <Innovation>15</Innovation>
@@ -283,7 +283,7 @@
     <Feature>
       <Name>Efficacité énergétique</Name>
       <Category>Physique</Category>
-      <Description>Use less power! Save the planet!</Description>
+      <Description>Economisez l'énergie ! Sauvez la planète !</Description>
       <Unlock>1995</Unlock>
       <DevTime>9</DevTime>
       <Innovation>1</Innovation>
@@ -294,7 +294,7 @@
     <Feature From="Efficacité énergétique">
       <Name>25%</Name>
       <Category>Physique</Category>
-      <Description>One giant leap in... making things smaller?  Using smaller and smaller components has net a considerable power and efficiency increase.</Description>
+      <Description>Un pas de géant dans... la miniaturisation? Utiliser des composants toujours plus petits augmente considérablement l'efficacité et le rendement énergétique.</Description>
       <Unlock>1998</Unlock>
       <DevTime>6</DevTime>
       <Innovation>1</Innovation>
@@ -305,7 +305,7 @@
     <Feature Research="Efficacité énergétique">
       <Name>35%</Name>
       <Category>Physique</Category>
-      <Description>Yes, it really did take you four years to figure out how to save even ten percent more power on the chips themselves, you didn't want to sacrifice performance.</Description>
+      <Description>Oui, il vous a vraiment fallu 4 ans pour trouver comment gagner 10% de rendement sans sacrifier les performances.</Description>
       <Unlock>2002</Unlock>
       <DevTime>9</DevTime>
       <Innovation>3</Innovation>
@@ -316,7 +316,7 @@
     <Feature Research="Efficacité énergétique">
       <Name>42%</Name>
       <Category>Physique</Category>
-      <Description>A crazy scientist named "Bob" in the depths of your Research and Development dept. thinks he's solved the universe itself... or at least 7% more power savings.</Description>
+      <Description>Un scientifique fou du nom de "Bob", dans les profondeurs de votre laboratoire de recherche pense avoir trouver la réponse à l'univers lui-même... ou plutôt comment économiser 7% d'énergie.</Description>
       <Unlock>2007</Unlock>
       <DevTime>6</DevTime>
       <Innovation>5</Innovation>

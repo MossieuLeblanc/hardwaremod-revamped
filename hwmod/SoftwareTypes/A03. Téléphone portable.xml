@@ -1,10 +1,9 @@
 <SoftwareType>
 	<Name>Téléphone portable</Name>
 	<Category>Hardware</Category>
-	<Description>Make a Téléphone portable to sell to the masses!</Description>
 	<Categories>
 		<Category Name="Défaut">
-			<Description>A Téléphone portable. What more could you want.</Description>
+			<Description>Un téléphone portable. Que voulez vous de plus...</Description>
 			<Unlock>2000</Unlock>
 			<Popularity>0.9</Popularity>
 			<TimeScale>1</TimeScale>
@@ -22,7 +21,7 @@
 		<Feature Forced="TRUE">
 			<Name>Boîtier de téléphone portable</Name>
 			<Category>Physique</Category>
-			<Description>Well, what else are you going to put the parts in?!</Description>
+			<Description>Dans quoi d'autre pourrions nous mettre les composants?!</Description>
 			<DevTime>3</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
@@ -33,7 +32,7 @@
 		<Feature From="Boîtier de téléphone portable">
 			<Name>Boîtier de téléphone portable avec appareil photo</Name>
 			<Category>Physique</Category>
-			<Description>Allows you to add in a camera.</Description>
+			<Description>Permet d'ajouter une caméra.</Description>
 			<DevTime>4</DevTime>
 			<Unlock>2005</Unlock>
 			<Innovation>2</Innovation>
@@ -44,7 +43,7 @@
 		<Feature Vital="TRUE">
 			<Name>Amplificateur d'enceinte</Name>
 			<Category>Audio</Category>
-			<Description>You'll need these for sound. Isn't it obvious? No? Ok.</Description>
+			<Description>Vous en aurez besoin pour le son. N'est-ce pas évident? Non? Ok.</Description>
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
@@ -55,7 +54,7 @@
 		<Feature Vital="TRUE">
 			<Name>Enceinte</Name>
 			<Category>Audio</Category>
-			<Description>Would make sense to have these with the amp? No? It's your Téléphone portable not mine...</Description>
+			<Description>Ca aurait du sens de les brancher à l'ampli? Non? C'est votre téléphone portable après tout, pas le mien...</Description>
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
@@ -67,7 +66,7 @@
 		<Feature From="Enceinte">
 			<Name>Enceintes stéréo</Name>
 			<Category>Audio</Category>
-			<Description>Two Enceintes are better than one. (in theory)</Description>
+			<Description>Deux enceintes valent mieux qu'une. (en théorie)</Description>
 			<DevTime>4</DevTime>
 			<Unlock>2014</Unlock>
 			<Innovation>3</Innovation>
@@ -78,7 +77,7 @@
 		<Feature Vital="TRUE">
 			<Name>Jack 3.5mm</Name>
 			<Category>Audio</Category>
-			<Description>For listening to music through headTéléphone portables (not included)</Description>
+			<Description>Pour brancher des écouteurs et y écouter de la musique.(Téléphone portable non inclu)</Description>
 			<DevTime>1</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
@@ -90,7 +89,7 @@
 		<Feature From="Jack 3.5mm">
 			<Name>3.5mm Combi-Jack</Name>
 			<Category>Audio</Category>
-			<Description>Plug headTéléphone portables and a microTéléphone portable into the same port, at the same time!</Description>
+			<Description>Branchez vos écouteurs et microphones sur le même port, le tout à la fois!</Description>
 			<DevTime>2</DevTime>
 			<Unlock>2004</Unlock>
 			<Innovation>2</Innovation>
@@ -99,9 +98,9 @@
 			<CodeArt>0.4</CodeArt>
 		</Feature>
 		<Feature Forced="TRUE">
-			<Name>MicroTéléphone portable</Name>
+			<Name>Microphone pour téléphone portable</Name>
 			<Category>Audio</Category>
-			<Description>For making calls, you know, the point of a Téléphone portable? Oh forget it.</Description>
+			<Description>Utile pour passer des coups de fils, vous savez, c'est l'intérêt d'un téléphone portable...</Description>
 			<DevTime>2</DevTime>
 			<Unlock>0</Unlock>
 			<Innovation>1</Innovation>
@@ -112,7 +111,7 @@
 		<Feature Forced="TRUE">
 			<Name>Affichage monochrome</Name>
 			<Category>Physique</Category>
-			<Description>A basic monochrome screen, two colours, low resolution.</Description>
+			<Description>Une simple écran monochrome, deux couleurs, faible résolution.</Description>
 			<Unlock>0</Unlock>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -123,7 +122,7 @@
 		<Feature From="Affichage monochrome">
 			<Name>Affichage LCD TFT</Name>
 			<Category>Physique</Category>
-			<Description>Yay for colours, its a shame theres about 2 degrees of viewing angles!</Description>
+			<Description>Vive les couleurs ! C'est dommage qu'on ne les voient que d'un certain angle!</Description>
 			<Unlock>2003</Unlock>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -134,7 +133,7 @@
 		<Feature From="Affichage LCD TFT">
 			<Name>Affichage tactile LCD TFT</Name>
 			<Category>Physique</Category>
-			<Description>No advancement in the same awful display, but you can poke it now!</Description>
+			<Description>Toujours le même affichage horrible... mais vous pouvez le toucher maintenant!</Description>
 			<Unlock>2006</Unlock>
 			<DevTime>6</DevTime>
 			<Innovation>4</Innovation>
@@ -145,7 +144,7 @@
 		<Feature From="Affichage tactile LCD TFT">
 			<Name>Affichage tactile IPS</Name>
 			<Category>Physique</Category>
-			<Description>Touchscreen and a display that isn't absoultely dreadful. Madness.</Description>
+			<Description>Un écran tactile et un affichage décent. De la folie.</Description>
 			<Unlock>2008</Unlock>
 			<DevTime>7</DevTime>
 			<Innovation>4</Innovation>
@@ -156,7 +155,7 @@
 		<Feature Forced="TRUE">
 			<Name>ARM SOC</Name>
 			<Category>Physique</Category>
-			<Description>The brains of the Téléphone portable. The thing that does it all. 42.</Description>
+			<Description>Le cerveau du téléphone portable. Le truc qui fait tout. 42.</Description>
 			<Unlock>0</Unlock>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
