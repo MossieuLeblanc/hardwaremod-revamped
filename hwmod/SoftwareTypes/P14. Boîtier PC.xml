@@ -1,7 +1,7 @@
 <SoftwareType>
   <Name>Boîtier</Name>
   <Category>Hardware</Category>
-  <Description>Ordinateurs need a shell too.</Description>
+  <Description>Les ordinateurs ont besoin d'une protection aussi.</Description>
   <Categories>
     <Category Name="Tour PC">
       <Description>Individuals love to pimp out their Boîtier, and are generally only interested in what it looks like.</Description>

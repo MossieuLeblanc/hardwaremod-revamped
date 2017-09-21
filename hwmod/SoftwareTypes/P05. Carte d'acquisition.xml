@@ -1,7 +1,7 @@
 <SoftwareType>
   <Name>Carte d'acquisition</Name>
   <Category>Hardware</Category>
-  <Description></Description>
+  <Description>Concevoir une carte servant à convertir les données vidéo provenant d'une source externe, telle qu'un caméscope ou un magnétoscope.</Description>
   <Categories>
     <Category Name="Défaut">
       <Description></Description>

@@ -1,7 +1,7 @@
 <SoftwareType>
   <Name>Ordinateur</Name>
   <Category>Hardware</Category>
-  <Description>Create your own Ordinateur</Description>
+  <Description>Concevoir votre propre ordinateur</Description>
   <Categories>
     <Category Name="Consommateur">
       <Description>Geared towards individuals, these less powerful Ordinateures are easier to make; but consumers replace them fairly often.</Description>

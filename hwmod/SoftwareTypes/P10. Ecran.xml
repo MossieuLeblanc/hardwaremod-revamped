@@ -1,7 +1,7 @@
 <SoftwareType>
   <Name>Ecran</Name>
   <Category>Hardware</Category>
-  <Description>Chances are you bought a Ordinateur to see something... visually, you might need this.  Sort of required for 2D or 3D... or even Text-Based interfaces.</Description>
+  <Description>Il y a des chances que vous achetiez un ordinateur pour voir des choses... visuellement, vous aurez besoin d'un écran. Un indispensable pour la 2D ou la 3D... et les interfaces type texte.</Description>
   <Categories>
     <Category Name="Défaut">
       <Description>Still needs some balancing (v0.9+)</Description>

@@ -1,7 +1,7 @@
 <SoftwareType>
   <Name>Stockage</Name>
   <Category>Hardware</Category>
-  <Description>Ordinateurs sometimes need to store their data, and by sometimes I mean they always do.</Description>
+  <Description>Les ordinateurs ont parfois besoin de stocker leurs données, et par "parfois" je veux dire toujours.</Description>
   <Categories>
     <Category Name="Disque dur">
       <Description>The slow spinning kind</Description>

@@ -1,7 +1,7 @@
 <SoftwareType>
   <Name>Mémoire vive</Name>
   <Category>Hardware</Category>
-  <Description></Description>
+  <Description>Concevoir une mémoire informatique dans laquelle seront stockées les informations traitées par des appareils (ordinateur, console, téléphone portable...)</Description>
   <Categories>
     <Category Name="Défaut">
       <Description>Some RANDOM description. (RAM)</Description>

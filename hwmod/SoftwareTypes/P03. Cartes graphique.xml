@@ -1,10 +1,10 @@
 <SoftwareType>
   <Name>Cartes graphique</Name>
   <Category>Hardware</Category>
-  <Description>Create your own PCI Cartes graphique</Description>
+  <Description>Concevoir une carte graphique PCI</Description>
   <Categories>
     <Category Name="Défaut">
-      <Description>Still needs some balancing (v0.8+)</Description>
+      <Description>Nécessite encore quelques réglages (v0.8+)</Description>
       <Unlock>1992</Unlock>
       <Popularity>0.7</Popularity>
       <TimeScale>1.4</TimeScale>
